@@ -1,4 +1,5 @@
-#Guilherme Gonzaga Silva 11621EMT021
+#Guilherme Gonzaga Silva 11621EMT021 
+#prog02.py
 
 #1
 #print('Hello world')
