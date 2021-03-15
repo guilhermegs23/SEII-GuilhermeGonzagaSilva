@@ -1,3 +1,6 @@
+#Guilherme Gonzaga Silva 11621EMT021 
+#prog14.py
+
 import os
 
 os.chdir("C:\\Users\guilh\Documents\GitHub\SEIII-GuilhermeGonzagaSilva\Semana02\prog14")
