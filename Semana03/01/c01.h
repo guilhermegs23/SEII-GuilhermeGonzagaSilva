@@ -1,3 +1,8 @@
+/*Programa 1 
+  Guilherme Gonzaga Silva
+  11621EMT021
+*/
+
 #ifndef complexo_h
 #define complexo_h
 #include <math.h>
