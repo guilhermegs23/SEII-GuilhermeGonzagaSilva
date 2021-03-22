@@ -1,6 +1,11 @@
+/*Programa 2 
+  Guilherme Gonzaga Silva
+  11621EMT021
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
-#include <aing.h>
+
 
 int copyPaste(char *arquivo_antigo, char *arquivo_novo){
 	FILE *copy,*colar;
