@@ -5,6 +5,7 @@
 
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
 
 int copyPaste(char *arquivo_antigo, char *arquivo_novo){
@@ -13,12 +14,12 @@ int copyPaste(char *arquivo_antigo, char *arquivo_novo){
 	colar = fopen(arquivo_novo, "w"); 
 	int ch;
   	
-    while ((ch = getc (copy)) != EOF){
-       putc (ch, colar);
-    }
+  while ((ch = getc (copy)) != EOF){
+    putc (ch, colar);
+  }
     
-    fclose(copy);
-    fclose(colar);
+  fclose(copy);
+  fclose(colar);
 }
 
 int main(int argc, char *argv[]){
