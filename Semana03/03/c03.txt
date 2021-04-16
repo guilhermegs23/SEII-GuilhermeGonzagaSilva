@@ -1,0 +1,18 @@
+TORRE DE HANOI
+
+No problema, temos uma torre com n discos temos as torres A B e C, e temos como objetivo,
+mover todos os discos (que estão em uma torre) para outra torre, sem que um disco maior fique
+em cima de um maior e movendo um disco de cada vez. Nosso objetivo com o código é resolver o problema 
+de forma que o código nos diga os movimentos que iremos realizar. O numero de discos será dado pelo numero
+de argumentos dados  por meio int main(int argc, char *argv[ ]).
+
+Para resolução recursiva, temos que: 
+
+para n=1 -> podemos mover o disco de um poste para outro.
+para n discos -> temos que mover n-1 discos do poste de origem para o poste posterior, até chegar a solução de
+1 disco, e depois movimentar os n-1 discos de um dos outros postes para o destino, logo, temos:
+
+p/ 1 disco -> mover do poste atual para seu destino
+               resolver torre com n-1 discos do poste atual para auxiliar
+p/ n discos -> resolver torre com um disco
+               resolver torre com n-1 discos dos outros postes para o destino
